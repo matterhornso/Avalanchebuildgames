@@ -1,0 +1,9 @@
+{
+  "id": "7",
+  "subject": "Add contract ABI and integration",
+  "description": "Wire up ethers.js contract calls to the PredictionMarket contract",
+  "activeForm": "Integrating contract",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

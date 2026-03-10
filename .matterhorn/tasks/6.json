@@ -1,0 +1,9 @@
+{
+  "id": "6",
+  "subject": "Build UI components and pages",
+  "description": "Create the main app with market listing, bet placement, and payout claiming UI",
+  "activeForm": "Building UI components",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "2",
+  "subject": "Write PredictionMarket smart contract",
+  "description": "Create a prediction market contract with binary outcomes, betting, resolution, and claiming",
+  "activeForm": "Writing PredictionMarket contract",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

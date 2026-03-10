@@ -1,0 +1,9 @@
+{
+  "id": "4",
+  "subject": "Write tests",
+  "description": "Basic tests for the prediction market contract",
+  "activeForm": "Writing tests",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

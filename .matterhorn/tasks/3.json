@@ -1,0 +1,9 @@
+{
+  "id": "3",
+  "subject": "Write deploy script with 10 sample markets",
+  "description": "Create a Foundry deploy script that deploys the contract and creates 10 sample prediction markets",
+  "activeForm": "Writing deploy script",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

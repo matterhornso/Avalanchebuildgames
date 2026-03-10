@@ -1,0 +1,9 @@
+{
+  "id": "1",
+  "subject": "Initialize Foundry project",
+  "description": "Run forge init and configure foundry.toml for Avalanche C-Chain",
+  "activeForm": "Initializing Foundry project",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

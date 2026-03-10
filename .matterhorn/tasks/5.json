@@ -1,0 +1,9 @@
+{
+  "id": "5",
+  "subject": "Scaffold React + Vite frontend",
+  "description": "Initialize a React + TypeScript + Vite app in the frontend/ directory with ethers.js for wallet connection",
+  "activeForm": "Scaffolding frontend",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": []
+}
