@@ -1,17 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
 :root {
-  --bg: #0b0b12;
-  --surface: #14142a;
-  --surface2: #1e1e3a;
-  --border: #2a2a4a;
-  --text: #e8e8f0;
-  --text2: #7878a0;
+  --bg: #06060e;
+  --surface: rgba(16, 16, 32, 0.7);
+  --surface-hover: rgba(22, 22, 44, 0.85);
+  --surface2: rgba(28, 28, 52, 0.8);
+  --border: rgba(255, 255, 255, 0.06);
+  --border-hover: rgba(255, 255, 255, 0.12);
+  --text: #f0f0f8;
+  --text2: #6b6b90;
+  --text3: #4a4a6a;
   --accent: #e84142;
-  --accent-glow: rgba(232, 65, 66, 0.15);
-  --green: #22c55e;
-  --green-bg: rgba(34, 197, 94, 0.1);
-  --red: #ef4444;
-  --red-bg: rgba(239, 68, 68, 0.1);
+  --accent-soft: rgba(232, 65, 66, 0.12);
+  --green: #00d68f;
+  --green-soft: rgba(0, 214, 143, 0.12);
+  --red: #ff4d6a;
+  --red-soft: rgba(255, 77, 106, 0.12);
+  --yellow: #ffc107;
   --radius: 16px;
+  --radius-sm: 10px;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -22,38 +29,49 @@ body {
   color: var(--text);
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 #root {
-  max-width: 960px;
+  max-width: 1100px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 24px;
+  position: relative;
 }
 
 button {
   cursor: pointer;
   font-family: inherit;
   border: none;
-  border-radius: 10px;
+  border-radius: var(--radius-sm);
   font-weight: 600;
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   padding: 10px 20px;
-  transition: all 0.15s ease;
+  transition: all 0.2s ease;
+  outline: none;
 }
-button:hover { opacity: 0.88; transform: translateY(-1px); }
-button:active { transform: scale(0.97) translateY(0); }
+button:hover { transform: translateY(-1px); }
+button:active { transform: scale(0.97); }
 button:disabled { opacity: 0.35; cursor: not-allowed; transform: none; }
 
 input {
   font-family: inherit;
-  background: var(--bg);
+  background: rgba(0, 0, 0, 0.3);
   border: 1px solid var(--border);
-  border-radius: 10px;
+  border-radius: var(--radius-sm);
   color: var(--text);
   padding: 10px 14px;
   font-size: 0.85rem;
   outline: none;
   width: 100%;
-  transition: border-color 0.15s;
+  transition: all 0.2s;
+  backdrop-filter: blur(8px);
 }
-input:focus { border-color: var(--accent); }
+input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+input::placeholder { color: var(--text3); }
+
+::selection { background: var(--accent-soft); color: var(--accent); }
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }

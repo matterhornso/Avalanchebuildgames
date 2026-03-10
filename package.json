@@ -1,0 +1,28 @@
+{
+  "name": "prediction-market-fhe",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "test:fhe": "hardhat test",
+    "build": "forge build"
+  },
+  "dependencies": {
+    "@fhenixprotocol/cofhe-contracts": "0.0.13",
+    "cofhejs": "0.3.1",
+    "dotenv": "^16.0.0",
+    "ethers": "^6.4.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "2.0.8",
+    "@nomicfoundation/hardhat-ethers": "3.0.8",
+    "@nomicfoundation/hardhat-network-helpers": "1.0.12",
+    "@types/chai": "^4.3.0",
+    "@types/mocha": "^10.0.0",
+    "chai": "^4.2.0",
+    "cofhe-hardhat-plugin": "0.3.1",
+    "hardhat": "2.22.19",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}

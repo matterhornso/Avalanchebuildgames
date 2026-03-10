@@ -1,9 +1,9 @@
 {
   "id": "1",
-  "subject": "Initialize Foundry project",
-  "description": "Run forge init and configure foundry.toml for Avalanche C-Chain",
-  "activeForm": "Initializing Foundry project",
-  "status": "completed",
+  "subject": "Add Fhenix FHE privacy to prediction market",
+  "description": "Create PrivatePredictionMarket contract with encrypted bet amounts using Fhenix CoFHE, add Hardhat config for testing, install dependencies, and update frontend with encryption support.",
+  "activeForm": "Adding Fhenix FHE privacy",
+  "status": "in_progress",
   "blocks": [],
   "blockedBy": []
 }
