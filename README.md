@@ -1,6 +1,6 @@
 # AvalanchePredict
 
-A privacy-preserving prediction market platform on Avalanche, powered by Fhenix Fully Homomorphic Encryption (FHE). Built entirely through vibecoding with [Matterhorn](https://matterhorn.dev).
+A privacy-preserving prediction market platform on Avalanche, powered by Fhenix Fully Homomorphic Encryption (FHE). Built entirely through vibecoding with [Matterhorn](https://matterhorn.so).
 
 **Live Demo:** https://frontend-lyart-seven-39.vercel.app
 
