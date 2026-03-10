@@ -2,6 +2,8 @@
 
 A prediction market platform on Avalanche with privacy-preserving bets powered by Fhenix FHE (Fully Homomorphic Encryption).
 
+**Live Demo:** https://frontend-lyart-seven-39.vercel.app
+
 ## Overview
 
 Users can browse markets, place Yes/No bets on real-world outcomes, and claim payouts when markets resolve. Bet amounts are encrypted on-chain using Fhenix CoFHE — no one can see how much you bet, not even the contract operator.

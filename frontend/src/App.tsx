@@ -124,6 +124,7 @@ function App() {
           id: i, question: m.question, deadline: m.deadline, resolver: m.resolver,
           yesPool: m.yesPool, noPool: m.noPool, resolved: m.resolved,
           winningOutcome: Number(m.winningOutcome), category: "Crypto",
+          yesCount: 0, noCount: 0, encrypted: true,
         });
       }
       setMarkets(loaded);
